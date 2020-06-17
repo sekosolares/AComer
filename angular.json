@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AComer"
+    }
+  },
+  "defaultProject": "AComer",
+  "cli": {
+    "analytics": "4ba785ba-6e4c-4a8f-99e9-b24b372777b0"
+  }
 }
