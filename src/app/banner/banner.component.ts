@@ -9,6 +9,12 @@ export class BannerComponent implements OnInit {
 
   constructor() { }
 
+  images: string[] = [
+    '#',
+    '#',
+    '#'
+  ];
+
   ngOnInit(): void {
   }
 
