@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     HeaderComponent,
     FooterComponent,
     BannerComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
