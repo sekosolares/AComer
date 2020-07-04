@@ -11,16 +11,21 @@ nav {
 nav > a {
   text-decoration: none;
   padding: 1rem;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
   color: #202020;
 }
-nav > img {
-  cursor: pointer;
-  padding: 1rem;
+nav > a:first-child {
+  padding: 0;
+}
+nav > a > img {
+  padding: 0;
+  height: 50px;
 }
 nav > a:hover {
   border-bottom: 2px solid rgb(180, 180, 180);
 }
-.activeLink {
+nav > a.activeLink {
   border-bottom: 2px solid rgb(114, 114, 114);
   color: rgb(114, 114, 114);
 }

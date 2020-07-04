@@ -1,7 +1,16 @@
-
-img {
-  display: block;
-  margin: auto;
-  width: auto;
-  height: 450px;
+$F-family: 'Segoe UI', Arial, sans-serif;
+div > div > div {
+  img {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 90vh;
+  }
+  p {
+    position: relative;
+    top: 40px;
+    font-size: 2rem;
+    font-family: $F-family;
+    display: none;
+  }
 }

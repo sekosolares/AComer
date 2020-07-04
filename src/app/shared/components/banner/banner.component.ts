@@ -9,10 +9,19 @@ export class BannerComponent implements OnInit {
 
   constructor() { }
 
-  images: string[] = [
-    'https://bit.ly/38jYwtd',
-    'https://bit.ly/3iphGme',
-    'https://bit.ly/31vOLH8'
+  images: object = [
+    {
+      text: 'Deliciosos Ingredientes',
+      image: 'https://bit.ly/38jYwtd'
+    },
+    {
+      text: 'Comidas exquisitas',
+      image: 'https://bit.ly/3iphGme'
+    },
+    {
+      text: 'El Mejor Café',
+      image: 'https://bit.ly/31vOLH8'
+    }
   ];
 
   ngOnInit(): void {
