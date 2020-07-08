@@ -1,0 +1,61 @@
+$family: 'Segoe UI', Arial, sans-serif;
+
+div.info-container:nth-child(even) {
+  background-color: rgb(241, 241, 241);
+}
+
+div.info-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: $family;
+  margin: 0 auto 0 auto;
+  justify-content: center;
+  width: 90vw;
+  height: 60vh;
+  padding: 30px;
+
+  div.info-description {
+    font-family: inherit;
+    margin: auto;
+    // background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    div.description-header > h4.description-title {
+      font-size: 2em;
+      padding: 0.5em;
+      margin: 0;
+      width: 95%;
+    }
+    div.description-header > div.line {
+      padding: 0;
+      margin: 0;
+      margin-left: 2em;
+      border: 1px solid black;
+      width: 100px;
+      height:0;
+    }
+
+    div.description-body {
+      font-size: 1em;
+      text-align: justify;
+      width: 40%;
+    }
+  }
+  div.info-picture {
+    padding: 4px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 600px) {
+  div.info-container {
+    grid-template-columns: repeat(1, 1fr);
+
+    div.info-description {
+      div.description-header > h4.description-title {
+        font-size: 1.5em;
+      }
+    }
+  }
+}
