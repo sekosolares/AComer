@@ -32,9 +32,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
     // this.mySwiper.on('loopFix', () => {
     //   this.mySwiper.slideToLoop(0, 300, false);
     // });
+    this.mySwiper.init();
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }
